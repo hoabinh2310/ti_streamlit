@@ -59,8 +59,9 @@ stb.set_book_config(menu_title="Main Menu",
                         # name for icon: https://fontawesome.com/v4.7.0/icons/
                           "bar-chart",
                         #   "cloud",
-                          "asterisk",
                           "book",
+                          "asterisk",
+                          
                           ],
                     save_answers=True,
                     )

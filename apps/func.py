@@ -11,6 +11,7 @@ import streamlit.components.v1 as components
 # import matplotlib.pyplot as plt
 from PIL import Image
 from wordcloud import WordCloud
+import json
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["app"]
@@ -76,15 +77,12 @@ def get_cve_wc(df=df, startdate=startday, enddate=endday,k=8):
     startdate = datetime.datetime.strptime(startdate, '%Y-%m-%d')
     enddate = datetime.datetime.strptime(enddate, '%Y-%m-%d')
     numdays = (enddate - startdate).days
-    print(df.columns)
     df['date'] = df['date'].apply(pd.to_datetime)
     df = df[(df.date >= startdate) & (df.date <= enddate)]
     wc = []
     for i in range(len(df)):
-        # dt = datetime.datetime.strptime(df.iloc[i]['date'], '%Y-%m-%d')
         if startdate <= df.iloc[i]['date'] <= enddate:
             words = df.iloc[i]['content'].split()
-            # create a set of words are cve
             cve_words = set()
             for word in words:
                 if word.startswith('cve') and len(word) > 8:
@@ -99,11 +97,43 @@ def get_cve_wc(df=df, startdate=startday, enddate=endday,k=8):
 
     image = 'images/twitterlogo.png'
     mask = np.array(Image.open(image))
-    # create wordcloud
     iwc = WordCloud(background_color="white", max_words=2000, mask=mask, collocations=False)
     iwc.generate(' '.join(wc))
-    # plt.figure(figsize=(10,10))
-    # plt.imshow(iwc, interpolation='bilinear')   
     iwc.to_file('images/twitter_wordcloud2.png')
-    print('Wordcloud saved to images/twitter_wordcloud2.png')
+    # print('Wordcloud saved to images/twitter_wordcloud2.png')
     return iwc
+
+
+
+def get_ner():
+
+    df = pd.read_csv('data/blog_summary.csv')
+    ner_data = json.load(open('data/ner.json', 'r'))
+
+    dict_id_ner = {}
+    dict_text_tag = {}
+    set_long_text = set()
+    set_idx = set()
+
+    title = []
+    summary = []
+    ner = []
+    for i in ner_data:
+        dict_id_ner[i] = ner_data[i]
+        set_idx.add(i)
+        for nr in ner_data[i]:
+            dict_text_tag[nr['text']] = nr['tag']
+            set_long_text.add(nr['text'].replace(' ', '_'))
+
+    # print(df)
+    for i in range(len(df)):
+        if df.iloc[i]['id'] in set_idx:
+            title.append(df.title[i])
+            text = df.summary[i]
+            for long_text in set_long_text:
+                text = text.replace(long_text, long_text.replace('_', ' '))
+            # summ
+            text = text.split(' ')
+            ner.append([(x, dict_text_tag.get(x, 'O')+" ") if (dict_text_tag.get(x, 'O')!='O') else (x + " ") for x in text ])
+    
+    return ner, title

@@ -5,3 +5,4 @@ plotly
 pymongo
 wordcloud
 Pillow
+st-annotated-text
