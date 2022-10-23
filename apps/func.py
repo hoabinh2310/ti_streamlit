@@ -8,7 +8,9 @@ import numpy as np
 import datetime
 import pymongo
 import streamlit.components.v1 as components
-
+import matplotlib.pyplot as plt
+from PIL import Image
+from wordcloud import WordCloud
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["app"]
@@ -68,3 +70,40 @@ def get_content_dt(df=df, word="", startdate=startday, enddate=endday):
     df = pd.DataFrame(freq.items(), columns=['date', 'freq'])
     df = df.sort_values(by='date', ascending=False)
     return df
+
+def get_cve_wc(df=df, startdate=startday, enddate=endday,k=8):
+    cve = {}
+    startdate = datetime.datetime.strptime(startdate, '%Y-%m-%d')
+    enddate = datetime.datetime.strptime(enddate, '%Y-%m-%d')
+    numdays = (enddate - startdate).days
+    print(df.columns)
+    df['date'] = df['date'].apply(pd.to_datetime)
+    df = df[(df.date >= startdate) & (df.date <= enddate)]
+    wc = []
+    for i in range(len(df)):
+        # dt = datetime.datetime.strptime(df.iloc[i]['date'], '%Y-%m-%d')
+        if startdate <= df.iloc[i]['date'] <= enddate:
+            words = df.iloc[i]['content'].split()
+            # create a set of words are cve
+            cve_words = set()
+            for word in words:
+                if word.startswith('cve') and len(word) > 8:
+                    word = word.lower().replace(':', '').replace(',', '').replace('.', '').replace(';', '').replace(')', '').replace('(', '').replace('-','')
+                    cve_words.add(word)
+                    wc.append(word)
+            for word in cve_words:
+                cve[word] = cve.get(word, 0) + 1
+    sorted_cve = sorted(cve.items(), key=lambda x: x[1], reverse=True)
+    topk = sorted_cve[:k]
+    topk_cve = [x[0] for x in topk]
+
+    image = 'images/twitterlogo.png'
+    mask = np.array(Image.open(image))
+    # create wordcloud
+    iwc = WordCloud(background_color="white", max_words=2000, mask=mask, collocations=False)
+    iwc.generate(' '.join(wc))
+    # plt.figure(figsize=(10,10))
+    # plt.imshow(iwc, interpolation='bilinear')   
+    iwc.to_file('images/twitter_wordcloud2.png')
+    print('Wordcloud saved to images/twitter_wordcloud2.png')
+    return iwc

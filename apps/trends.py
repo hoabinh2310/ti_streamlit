@@ -12,8 +12,8 @@ import streamlit.components.v1 as components
 import datetime
 import streamlit as st
 import altair as alt
-from apps.func import get_content_dt, get_cve_topk
-import warnings 
+from apps.func import *
+import warnings     
 warnings.filterwarnings('ignore')
 
 
@@ -41,9 +41,9 @@ for cve in list_cve:
     # print(df_count)
     ldf.append(df_count)
 
-df = pd.concat(ldf, axis=1)
-df = df.dropna()
-df = df.rename(columns={'date': 'date', 'freq': 'freq'})
+# df = pd.concat(ldf, axis=1)
+# df = df.dropna()
+# df = df.rename(columns={'date': 'date', 'freq': 'freq'})
 
 with st.container():
     g1, g2, g3 = st.columns((1,1,1))
@@ -84,7 +84,8 @@ with st.container():
     g2.write(" ")
     g2.write(" ")
     g2.write(" ")
-    g2.image('images/twitter_wordcloud.png', use_column_width=True)
+    get_cve_wc(df=df, startdate = startday, enddate = endday)
+    g2.image('images/twitter_wordcloud2.png', use_column_width=True)
 
     with g3:
         fig = px.bar(ldf[4], x = 'date', y='freq', template = 'seaborn')
