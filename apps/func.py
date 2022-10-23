@@ -125,7 +125,16 @@ def get_ner():
             dict_text_tag[nr['text']] = nr['tag']
             set_long_text.add(nr['text'].replace(' ', '_'))
 
-    # print(df)
+    color = {
+        "application": "#faa",
+        "hardware": "#00ff00",
+        "os": "#0000ff",
+        "relevant_term": "#afa",
+        "update": "#8ef",
+        "vendor": "#fea",
+        "version": "#ff8000",
+    }
+
     for i in range(len(df)):
         if df.iloc[i]['id'] in set_idx:
             title.append(df.title[i])
@@ -134,6 +143,6 @@ def get_ner():
                 text = text.replace(long_text, long_text.replace('_', ' '))
             # summ
             text = text.split(' ')
-            ner.append([(x, dict_text_tag.get(x, 'O')+" ") if (dict_text_tag.get(x, 'O')!='O') else (x + " ") for x in text ])
+            ner.append([(x, dict_text_tag.get(x, 'O')+" ", color[dict_text_tag.get(x, 'O')]) if (dict_text_tag.get(x, 'O')!='O') else (x + " ") for x in text ])
     
     return ner, title
