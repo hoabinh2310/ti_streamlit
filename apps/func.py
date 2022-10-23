@@ -19,7 +19,14 @@ today_but_last_week = (datetime.datetime.now() - datetime.timedelta(days=7)).str
 startday = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
 endday = (datetime.datetime.now()).strftime('%Y-%m-%d')
 
-def get_cve_topk(df=None, startdate=startday, enddate=endday, k=8):
+dftw = pd.read_csv('data/twitter_raw.csv')
+dftw['date'] = pd.to_datetime(dftw['date']).apply(lambda x: x.strftime('%Y-%m-%d'))
+dftw = dftw.sort_values(by='date', ascending=False)
+cve = [1 if 'cve' in x.lower() else 0 for x in dftw['content']]
+dftw['cve'] = cve
+df = dftw[dftw.cve == 1]
+
+def get_cve_topk(df=df, startdate=startday, enddate=endday, k=8):
     cve = {}
     startdate = datetime.datetime.strptime(startdate, '%Y-%m-%d')
     enddate = datetime.datetime.strptime(enddate, '%Y-%m-%d')
@@ -43,7 +50,7 @@ def get_cve_topk(df=None, startdate=startday, enddate=endday, k=8):
     topk_cve = [x[0] for x in topk]
     return topk_cve
 
-def get_content_dt(df=None, word=None, startdate=startday, enddate=endday):
+def get_content_dt(df=df, word="", startdate=startday, enddate=endday):
     content = []
     startdate = datetime.datetime.strptime(startdate, '%Y-%m-%d')
     enddate = datetime.datetime.strptime(enddate, '%Y-%m-%d')
