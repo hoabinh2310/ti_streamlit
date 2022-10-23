@@ -8,7 +8,7 @@ import numpy as np
 import datetime
 import pymongo
 import streamlit.components.v1 as components
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from PIL import Image
 from wordcloud import WordCloud
 
