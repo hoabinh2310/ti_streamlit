@@ -22,22 +22,19 @@ summary = df['summary'].tolist()
 
 with blog1:
     for i in range(5):
-        st.markdown(f'<h4 style="text-align: center; color: grey;">{title[i]}</h3>', unsafe_allow_html=True)
+        st.markdown(f'<h4 style="text-align: center; color: grey;">{title[i].title()}</h3>', unsafe_allow_html=True)
         st.markdown(f'<p style="background-color:#f0f2f6;color:black;font-size:16px;border-radius:2%;margin:15px;padding:15px"> \
                         {summary[i]} </p>', unsafe_allow_html=True)
-        st.write('')
 
 with blog2:
     for i in range(5,10):
-        st.markdown(f'<h4 style="text-align: center; color: grey;">{title[i]}</h3>', unsafe_allow_html=True)
+        st.markdown(f'<h4 style="text-align: center; color: grey;">{title[i].title()}</h3>', unsafe_allow_html=True)
         st.markdown(f'<p style="background-color:#f0f2f6;color:black;font-size:16px;border-radius:2%;margin:15px;padding:15px"> \
                         {summary[i]} </p>', unsafe_allow_html=True)
-        st.write('')
 
 with blog3:
     for i in range(10,15):
-        st.markdown(f'<h4 style="text-align: center; color: grey;">{title[i]}</h3>', unsafe_allow_html=True)
+        st.markdown(f'<h4 style="text-align: center; color: grey;">{title[i].title()}</h3>', unsafe_allow_html=True)
         st.markdown(f'<p style="background-color:#f0f2f6;color:black;font-size:16px;border-radius:2%;margin:15px;padding:15px"> \
                         {summary[i]} </p>', unsafe_allow_html=True)
-        st.write('')
 
