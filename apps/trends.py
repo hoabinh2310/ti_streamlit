@@ -34,7 +34,7 @@ kdays = {'week': 7, 'month': 30, 'year': 365, 'all': 365*4}
 startday = (datetime.datetime.now() - datetime.timedelta(days=kdays[choice])).strftime('%Y-%m-%d')
 endday = (datetime.datetime.now()).strftime('%Y-%m-%d')
 
-list_cve = get_cve_topk(df=df, startdate = startday, endate = endday, k=8)
+list_cve = get_cve_topk(df=df, startdate = startday, enddate = endday, k=8)
 ldf = []
 for cve in list_cve:
     df_count = get_content_dt(df, cve, startday, endday)
