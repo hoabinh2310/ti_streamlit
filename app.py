@@ -8,7 +8,7 @@ from pathlib import Path
 st.session_state["warned_about_save_answers"] = True
 
 
-st.set_page_config(layout="wide", page_title="SatSchool", page_icon="🛰️")
+st.set_page_config(layout="wide", page_title="ThreatIntelligence", page_icon="🛰️")
 
 st.markdown("""
         <style>
@@ -43,20 +43,20 @@ stb.set_book_config(menu_title="Main Menu",
                     menu_icon="",
                     options=[
                             "Trends",
-                            "Wordcloud",
+                            # "Wordcloud",
                             "Blog",
                             "Graph",
                             ],
                     paths=[
                         current_path / "apps/trends.py",
-                        current_path / "apps/wordcloud.py",
+                        # current_path / "apps/wordcloud.py",
                         current_path / "apps/blog.py",
                         current_path / "apps/graph.py",
                           ],
                     icons=[
                         # name for icon: https://fontawesome.com/v4.7.0/icons/
                           "bar-chart",
-                          "cloud",
+                        #   "cloud",
                           "asterisk",
                           "book",
                           ],
