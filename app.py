@@ -44,14 +44,14 @@ stb.set_book_config(menu_title="Main Menu",
                     options=[
                             "Trends",
                             "Wordcloud",
-                            "Graph",
                             "Blog",
+                            "Graph",
                             ],
                     paths=[
                         current_path / "apps/trends.py",
                         current_path / "apps/wordcloud.py",
-                        current_path / "apps/graph.py",
                         current_path / "apps/blog.py",
+                        current_path / "apps/graph.py",
                           ],
                     icons=[
                         # name for icon: https://fontawesome.com/v4.7.0/icons/
