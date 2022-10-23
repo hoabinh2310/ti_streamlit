@@ -19,7 +19,7 @@ today_but_last_week = (datetime.datetime.now() - datetime.timedelta(days=7)).str
 startday = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d')
 endday = (datetime.datetime.now()).strftime('%Y-%m-%d')
 
-def get_cve_topk(df, startdate=startday, enddate=endday, k=8):
+def get_cve_topk(df=None, startdate=startday, enddate=endday, k=8):
     cve = {}
     startdate = datetime.datetime.strptime(startdate, '%Y-%m-%d')
     enddate = datetime.datetime.strptime(enddate, '%Y-%m-%d')
@@ -43,7 +43,7 @@ def get_cve_topk(df, startdate=startday, enddate=endday, k=8):
     topk_cve = [x[0] for x in topk]
     return topk_cve
 
-def get_content_dt(df, word, startdate=startday, enddate=endday):
+def get_content_dt(df=None, word=None, startdate=startday, enddate=endday):
     content = []
     startdate = datetime.datetime.strptime(startdate, '%Y-%m-%d')
     enddate = datetime.datetime.strptime(enddate, '%Y-%m-%d')
