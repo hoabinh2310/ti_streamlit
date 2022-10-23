@@ -1,0 +1,5 @@
+streamlit_book
+pandas
+streamlit
+plotly
+pymongo

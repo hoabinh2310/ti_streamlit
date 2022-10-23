@@ -24,7 +24,7 @@ st.title("Graph")
 st.graphviz_chart('''
             digraph Twelve_colors {
             # resize the graph
-            size="4,4";
+            size="5,5";
             label = "Twelve colors. Neato layout"
             labelloc = "b"
             layout = neato
@@ -58,6 +58,6 @@ st.graphviz_chart('''
             magenta -> {deeppink purple} [color = magenta]
             purple [fillcolor = purple fontcolor = white]
             springgreen [fillcolor = springgreen]
-            // © 2022 Costa Shulyupin, licensed under EPL
+            // © 2022 TI Streamlit
         }
         ''', use_container_width=True)

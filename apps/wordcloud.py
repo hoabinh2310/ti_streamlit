@@ -16,7 +16,7 @@ from apps.func import get_content_dt, get_cve_topk
 
 st.title("Word Cloud")
 
-wc, data = st.columns((2, 1))
+t1, wc, t2 = st.columns((1,2,1))
 
 # wc.markdown("<h2 style='text-align: center; color: grey;'>WordCloud</h2>", unsafe_allow_html=True)
 # wc.write("")
