@@ -61,7 +61,7 @@ def get_content_dt(df=df, word="", startdate=startday, enddate=endday):
         if word in df.iloc[i]['content']:
             content.append(df.iloc[i])
     freq_val = []
-    for day in range(numdays):
+    for day in range(numdays+1):
         day = startdate + datetime.timedelta(days=day)
         freq_val.append(len([x for x in content if x['date'].date() == day.date()]))
     freq = dict(zip([startdate + datetime.timedelta(days=x) for x in range(numdays)], freq_val))
