@@ -23,7 +23,7 @@ blog1, blog2, blog3 = st.columns((1,1,1))
 # date = df['date'].tolist()
 # print(len(df))
 
-ner, title = get_ner()
+ner, title, url = get_ner()
 
 for i in range(5):
     ct = st.container()
@@ -32,16 +32,10 @@ for i in range(5):
         for j in range(3):
             with blog[j]:
                 st.write("")
-                st.write("")
-                st.markdown(f'<h4 style="text-align: center;background-color:#dbe6f4;border-radius:2%;padding:15px">{title[i*3+j].title()}</h3>', unsafe_allow_html=True)
+                st.markdown(f'<h4 id="test" style="text-align: center;background-color:#dbe6f4;border-radius:2%;padding:15px"><a href="{url[i*3+j]}" style="text-decoration:none;">{title[i*3+j].title()}</a></h4>', unsafe_allow_html=True)
+                # st.markdown(['www.google.com'](#test), unsafe_allow_html=True)
                 st.write("")
                 annotated_text(*ner[i*3+j])
-                # blog[j].markdown(f'<p style="text-align: center;">{date[i*3+j]}</p>', unsafe_allow_html=True)
-                # st.markdown(f'<p style="text-align:left;background-color:#f0f2f6;color:black;font-size:16px;border-radius:2%;margin:15px;padding:15px"> \
-                                #  {annotated_text(*ner[i*3+j])} </p>', unsafe_allow_html=True)
-            # blog[j].markdown(f"### {title[i*3+j]}")
-            # blog[j].markdown(summary[i*3+j])
-
 
 
 # with blog1:
