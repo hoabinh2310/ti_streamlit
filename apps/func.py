@@ -106,11 +106,10 @@ def get_cve_wc(df=df, startdate=startday, enddate=endday,k=8):
 
 
 def get_ner():
-
     df_raw = pd.read_csv('data/blog_raw.csv')
     id2url = {}
-    for idx, url in zip(df_raw["id"], df_raw['url']):
-        id2url[idx] = url
+    for idx, _url in zip(df_raw["id"], df_raw['url']):
+        id2url[idx] = _url
 
     df = pd.read_csv('data/blog_summary.csv')
     ner_data = json.load(open('data/ner.json', 'r'))
@@ -120,11 +119,6 @@ def get_ner():
     set_long_text = set()
     set_idx = set()
 
-
-
-    title = []
-    ner = []
-    url = []
     for i in ner_data:
         dict_id_ner[i] = ner_data[i]
         set_idx.add(i)
@@ -142,6 +136,9 @@ def get_ner():
         "version": "#ff8000",
     }
 
+    title = []
+    ner = []
+    url = []
     for i in range(len(df)):
         if df.iloc[i]['id'] in set_idx:
             title.append(df.title[i])
