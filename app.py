@@ -41,7 +41,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 current_path = Path(__file__).parent.absolute()
 
 # Streamit book properties
-stb.set_book_config(menu_title="Main Menu",
+stb.set_book_config(menu_title="Navigator",
                     menu_icon="",
                     options=[
                             "Trends",

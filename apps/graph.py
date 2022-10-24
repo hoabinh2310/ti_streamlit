@@ -14,6 +14,7 @@ import streamlit as st
 import altair as alt
 from apps.func import get_content_dt, get_cve_topk
 
-t1, wc, t2 = st.columns((0.5,2,0.5))
-
+t1, wc, t2 = st.columns((0.75,2,0.75))
+title = 'Under Development'
+wc.markdown(f"<h2 style='text-align: center;'>{title}</h2>", unsafe_allow_html=True)
 wc.image('images/dvl.png', use_column_width=True)

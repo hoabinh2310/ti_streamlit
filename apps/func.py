@@ -97,7 +97,7 @@ def get_cve_wc(df=df, startdate=startday, enddate=endday,k=8):
 
     image = 'images/twitterlogo.png'
     mask = np.array(Image.open(image))
-    iwc = WordCloud(background_color="white", max_words=2000, mask=mask, collocations=False)
+    iwc = WordCloud(background_color="white", max_words=2000, mask=mask, collocations=False, contour_color='#1c96e8', contour_width=1.5)
     iwc.generate(' '.join(wc))
     iwc.to_file('images/twitter_wordcloud2.png')
     # print('Wordcloud saved to images/twitter_wordcloud2.png')

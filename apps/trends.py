@@ -44,21 +44,21 @@ with st.container():
     g1, g2, g3 = st.columns((1,1,1))
     with g1:
         fig = px.bar(ldf[0], x = 'date', y='freq', template = 'seaborn')
-        fig.update_traces(marker_color='#264653')
+        fig.update_traces(marker_color='#D65050')
         fig.update_layout(title_x=0,margin= dict(l=0,r=10,b=10,t=0), yaxis_title=None, xaxis_title=None, width=300, height=300)
         g1.markdown(f"<h4 style='text-align: center;'>{list_cve[0].upper()}</h2>", unsafe_allow_html=True)
         g1.plotly_chart(fig, use_container_width=True) 
     
     with g2:
         fig = px.bar(ldf[1], x = 'date', y='freq', template = 'seaborn')
-        fig.update_traces(marker_color='#264653')
+        fig.update_traces(marker_color='#D65050')
         fig.update_layout(title_x=0,margin= dict(l=0,r=10,b=10,t=0), yaxis_title=None, xaxis_title=None, width=300, height=300)
         g2.markdown(f"<h4 style='text-align: center;'>{list_cve[1].upper()}</h2>", unsafe_allow_html=True)
         g2.plotly_chart(fig, use_container_width=True) 
     
     with g3:
         fig = px.bar(ldf[2], x = 'date', y='freq', template = 'seaborn')
-        fig.update_traces(marker_color='#264653')
+        fig.update_traces(marker_color='#D65050')
         fig.update_layout(title_x=0,margin= dict(l=0,r=10,b=10,t=0), yaxis_title=None, xaxis_title=None, width=300, height=300)
         g3.markdown(f"<h4 style='text-align: center;'>{list_cve[2].upper()}</h2>", unsafe_allow_html=True)
         g3.plotly_chart(fig, use_container_width=True) 
@@ -68,7 +68,7 @@ with st.container():
     g1, g2, g3 = st.columns((1,1,1))
     with g1:
         fig = px.bar(ldf[3], x = 'date', y='freq', template = 'seaborn')
-        fig.update_traces(marker_color='#264653')
+        fig.update_traces(marker_color='#D65050')
         fig.update_layout(title_x=0,margin= dict(l=0,r=10,b=10,t=0), yaxis_title=None, xaxis_title=None, width=300, height=300)
         g1.markdown(f"<h4 style='text-align: center;'>{list_cve[3].upper()}</h2>", unsafe_allow_html=True)
         g1.plotly_chart(fig, use_container_width=True) 
@@ -84,7 +84,7 @@ with st.container():
 
     with g3:
         fig = px.bar(ldf[4], x = 'date', y='freq', template = 'seaborn')
-        fig.update_traces(marker_color='#264653')
+        fig.update_traces(marker_color='#D65050')
         fig.update_layout(title_x=0,margin= dict(l=0,r=10,b=10,t=0), yaxis_title=None, xaxis_title=None, width=300, height=300)
         g3.markdown(f"<h4 style='text-align: center;'>{list_cve[4].upper()}</h2>", unsafe_allow_html=True)
         g3.plotly_chart(fig, use_container_width=True) 
@@ -94,21 +94,21 @@ with st.container():
     g1, g2, g3 = st.columns((1,1,1))
     with g1:
         fig = px.bar(ldf[5], x = 'date', y='freq', template = 'seaborn')
-        fig.update_traces(marker_color='#264653')
+        fig.update_traces(marker_color='#D65050')
         fig.update_layout(title_x=0,margin= dict(l=0,r=10,b=10,t=0), yaxis_title=None, xaxis_title=None, width=300, height=300)
         g1.markdown(f"<h4 style='text-align: center;'>{list_cve[5].upper()}</h2>", unsafe_allow_html=True)
         g1.plotly_chart(fig, use_container_width=True) 
     
     with g2:
         fig = px.bar(ldf[6], x = 'date', y='freq', template = 'seaborn')
-        fig.update_traces(marker_color='#264653')
+        fig.update_traces(marker_color='#D65050')
         fig.update_layout(title_x=0,margin= dict(l=0,r=10,b=10,t=0), yaxis_title=None, xaxis_title=None, width=300, height=300)
         g2.markdown(f"<h4 style='text-align: center;'>{list_cve[6].upper()}</h2>", unsafe_allow_html=True)
         g2.plotly_chart(fig, use_container_width=True) 
     
     with g3:
         fig = px.bar(ldf[7], x = 'date', y='freq', template = 'seaborn')
-        fig.update_traces(marker_color='#264653')
+        fig.update_traces(marker_color='#D65050')
         fig.update_layout(title_x=0,margin= dict(l=0,r=10,b=10,t=0), yaxis_title=None, xaxis_title=None, width=300, height=300)
         g3.markdown(f"<h4 style='text-align: center;'>{list_cve[7].upper()}</h2>", unsafe_allow_html=True)
         g3.plotly_chart(fig, use_container_width=True) 
