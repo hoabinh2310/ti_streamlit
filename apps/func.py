@@ -129,11 +129,12 @@ def get_ner():
     color = {
         "application": "#faa",
         "hardware": "#00ff00",
-        "os": "#0000ff",
+        "os": "#407FBE",
         "relevant_term": "#afa",
         "update": "#8ef",
         "vendor": "#fea",
         "version": "#ff8000",
+        "programming": "#ff00ff",
     }
 
     title = []

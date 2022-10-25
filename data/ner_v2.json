@@ -1,0 +1,1746 @@
+{
+    "4e3b28fd-3904-5e7b-8d98-a2602ac5cbd5": [
+        {
+            "text": "Apache",
+            "tag": "vendor"
+        },
+        {
+            "text": "arbitrary",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Apache",
+            "tag": "vendor"
+        }
+    ],
+    "6cc1adf4-2e28-50e8-9c94-51201d282227": [
+        {
+            "text": "files",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "script",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "password",
+            "tag": "relevant_term"
+        }
+    ],
+    "ad412ef5-4681-52ac-9c28-a910ac0fc322": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "gain",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "credentials",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "gain",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "sensitive",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        }
+    ],
+    "c71caebe-4ea5-5f34-a1e7-286da0f9b9cc": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "gain",
+            "tag": "relevant_term"
+        }
+    ],
+    "6853ebd1-f481-5162-ab35-e6fa5a2bcbd1": [
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "FurBall",
+            "tag": "application"
+        }
+    ],
+    "badf0b77-f287-5e61-9ebc-68b58d251241": [
+        {
+            "text": "Sophos",
+            "tag": "application"
+        },
+        {
+            "text": "code injection vulnerability",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Sophos",
+            "tag": "vendor"
+        },
+        {
+            "text": "Firewall",
+            "tag": "application"
+        },
+        {
+            "text": "v19.0",
+            "tag": "version"
+        },
+        {
+            "text": "previous",
+            "tag": "update"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "privileges",
+            "tag": "relevant_term"
+        }
+    ],
+    "80479c5f-f505-5a27-9bbe-a164b4fc6e10": [
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "XSS",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Java Swing",
+            "tag": "application"
+        },
+        {
+            "text": "HTML",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "html",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "HTML",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "HTML",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "inject",
+            "tag": "relevant_term"
+        }
+    ],
+    "9c04ea73-f6a5-524a-a92a-15af12733dee": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        }
+    ],
+    "59398155-2269-5224-bdf4-56e7cee32db1": [
+        {
+            "text": "previously",
+            "tag": "update"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        }
+    ],
+    "5c5af912-7d7f-5e5f-8bdb-df3f310b979c": [
+        {
+            "text": "1.2",
+            "tag": "version"
+        },
+        {
+            "text": "account",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "updates",
+            "tag": "update"
+        }
+    ],
+    "2663a063-d641-5e9f-ac43-405b8a20d0ab": [
+        {
+            "text": "attacker",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "gain",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "privileges",
+            "tag": "relevant_term"
+        }
+    ],
+    "0cccc56d-43fd-509d-bf82-cbbe3bd36764": [
+        {
+            "text": "Information",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "files",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "between 19:01",
+            "tag": "version"
+        }
+    ],
+    "5bd4539c-9f5e-518b-8001-c8ff0638c1dc": [
+        {
+            "text": "man-in-the-middle",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        }
+    ],
+    "14d835ca-dfd6-507f-9d1f-42fe587ec64b": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "previously",
+            "tag": "update"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        }
+    ],
+    "7b914b32-bc24-5451-aeb1-c37551b30926": [
+        {
+            "text": "2.5",
+            "tag": "version"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        }
+    ],
+    "2e1bae5c-f798-5234-927e-05534fae88d6": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        }
+    ],
+    "f0bf9c53-b8fc-57d9-862d-7848fb81430d": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "inject",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        }
+    ],
+    "05fcaa9a-32c5-500d-8fae-39c2bf955126": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "updates",
+            "tag": "update"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        },
+        {
+            "text": "Office",
+            "tag": "application"
+        },
+        {
+            "text": "10.0",
+            "tag": "version"
+        }
+    ],
+    "941e33f6-72ed-5873-b9b4-a19c91db7de1": [
+        {
+            "text": "Siemens",
+            "tag": "vendor"
+        },
+        {
+            "text": "Siemens",
+            "tag": "vendor"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        }
+    ],
+    "fba4e4ce-7ff5-5d96-ad47-4c5edf05c9f5": [
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "credentials",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Application",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "application",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "memory",
+            "tag": "relevant_term"
+        }
+    ],
+    "e2250a4f-5734-5f59-9761-4f46d35b50e7": [
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "previously",
+            "tag": "update"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        }
+    ],
+    "01cca442-793b-57b2-9e2e-af8264d25398": [
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        }
+    ],
+    "9be9c955-9ce2-55b7-aba6-ae18cc553fac": [
+        {
+            "text": "Fortinet",
+            "tag": "application"
+        },
+        {
+            "text": "Local",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Access",
+            "tag": "relevant_term"
+        }
+    ],
+    "2d94b831-14d0-5be1-a551-c16c62c5b742": [
+        {
+            "text": "FortiTester",
+            "tag": "application"
+        },
+        {
+            "text": "remote attacker",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "execute arbitrary command",
+            "tag": "relevant_term"
+        }
+    ],
+    "b0636b12-41c1-57c5-9a1c-b0fd27482817": [
+        {
+            "text": "Adobe",
+            "tag": "vendor"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "updates",
+            "tag": "update"
+        },
+        {
+            "text": "updates",
+            "tag": "update"
+        }
+    ],
+    "3a1cd21a-cfb9-576a-baa8-e651b160b826": [
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "bypass",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "requests",
+            "tag": "relevant_term"
+        }
+    ],
+    "ad635e56-20d4-517e-a32a-e1b08bc65175": [
+        {
+            "text": "Emotet",
+            "tag": "vendor"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "VMware",
+            "tag": "vendor"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        }
+    ],
+    "9ca201af-3088-51d5-ab30-b59504b8bd85": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "VMware",
+            "tag": "vendor"
+        },
+        {
+            "text": "vCenter Server",
+            "tag": "application"
+        },
+        {
+            "text": "6.5",
+            "tag": "version"
+        },
+        {
+            "text": "3t",
+            "tag": "version"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        }
+    ],
+    "8aceee17-3631-53d5-9dfb-a0a26d62745e": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "Talos",
+            "tag": "application"
+        },
+        {
+            "text": "memory",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Hancom",
+            "tag": "vendor"
+        },
+        {
+            "text": "Office",
+            "tag": "application"
+        },
+        {
+            "text": "2020",
+            "tag": "version"
+        },
+        {
+            "text": "memory",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        }
+    ],
+    "a227cf60-fa42-583b-be71-c0932b08682d": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "Outlook Desktop",
+            "tag": "application"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        }
+    ],
+    "1d57ea56-1b58-5f46-9b86-085d865ab092": [
+        {
+            "text": "Service",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        }
+    ],
+    "df7188af-f2cf-50cd-874a-cc3831e79ac6": [
+        {
+            "text": "gain",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "sensitive",
+            "tag": "relevant_term"
+        }
+    ],
+    "e51ed1f7-bd2d-5259-bf3b-4a41967c8fb0": [
+        {
+            "text": "service",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        }
+    ],
+    "9b0ace43-65f5-5773-b3d8-89a39474df0f": [
+        {
+            "text": "Apple",
+            "tag": "vendor"
+        },
+        {
+            "text": "bypass",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Apple",
+            "tag": "vendor"
+        },
+        {
+            "text": "requests",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Apple",
+            "tag": "vendor"
+        }
+    ],
+    "1086759c-e663-5d52-aa39-8e14f2ca6619": [
+        {
+            "text": "credentials",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "credentials",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "credentials",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        }
+    ],
+    "fc054751-1462-5f4d-b550-d19ded2e345b": [
+        {
+            "text": "Packagist",
+            "tag": "application"
+        },
+        {
+            "text": "execute",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "commands",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        }
+    ],
+    "f8f231b6-6073-5eb9-ba13-d2cbd9fcdc94": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "credentials",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "password",
+            "tag": "relevant_term"
+        }
+    ],
+    "626c84b1-55fe-54b3-8db6-bccbb96b4a01": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "Exchange Server",
+            "tag": "application"
+        },
+        {
+            "text": "2013",
+            "tag": "version"
+        },
+        {
+            "text": "2016",
+            "tag": "version"
+        },
+        {
+            "text": "2019",
+            "tag": "version"
+        },
+        {
+            "text": "allows",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote code",
+            "tag": "relevant_term"
+        }
+    ],
+    "e5239895-59b3-5355-ad5b-e77afe64e061": [
+        {
+            "text": "previously",
+            "tag": "update"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "service",
+            "tag": "relevant_term"
+        }
+    ],
+    "00b2684c-c227-5e71-9bc8-b5c093fc24bb": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "8.8",
+            "tag": "version"
+        },
+        {
+            "text": "6.3",
+            "tag": "version"
+        }
+    ],
+    "f9f6ede8-185d-5fe3-8a17-0fe07d8693e3": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        },
+        {
+            "text": "Code",
+            "tag": "relevant_term"
+        }
+    ],
+    "e880d1ca-a87a-5606-b22f-aeabf76af549": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "Exchange Server",
+            "tag": "application"
+        },
+        {
+            "text": "2013",
+            "tag": "version"
+        },
+        {
+            "text": "Exchange Server",
+            "tag": "application"
+        },
+        {
+            "text": "2016",
+            "tag": "version"
+        },
+        {
+            "text": "Exchange Server",
+            "tag": "application"
+        },
+        {
+            "text": "2019",
+            "tag": "version"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        }
+    ],
+    "8cc59b1e-b691-5ff7-bc68-3afc047a5319": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "Talos",
+            "tag": "application"
+        },
+        {
+            "text": "prevent",
+            "tag": "update"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "Exchange Servers",
+            "tag": "application"
+        },
+        {
+            "text": "2013",
+            "tag": "version"
+        },
+        {
+            "text": "2016",
+            "tag": "version"
+        },
+        {
+            "text": "2019",
+            "tag": "version"
+        }
+    ],
+    "5f8fb6fb-a8e5-51b1-aef7-8edee996d2af": [
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "Chetan Raghuprasad",
+            "tag": "application"
+        },
+        {
+            "text": "configuration",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "commands",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "arbitrary",
+            "tag": "relevant_term"
+        }
+    ],
+    "5e7333e1-9a52-5fca-86e5-2ccee78119ba": [
+        {
+            "text": "allows",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "802.2",
+            "tag": "version"
+        },
+        {
+            "text": "bypass",
+            "tag": "relevant_term"
+        }
+    ],
+    "6c621480-6f5d-56fa-8b0d-4b8e085ce00a": [
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        }
+    ],
+    "0c2625bb-0252-57fd-a274-a06ded9038dc": [
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authorization",
+            "tag": "relevant_term"
+        }
+    ],
+    "0d3d06a0-cbf8-524a-afbb-aff1dac1eede": [
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "commands",
+            "tag": "relevant_term"
+        }
+    ],
+    "9dc74881-2576-58d9-9769-179302a454c2": [
+        {
+            "text": "Quantum Builder",
+            "tag": "application"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        },
+        {
+            "text": "files",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        }
+    ],
+    "7bb3c135-4259-5035-8f70-118565d35a63": [
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "script",
+            "tag": "relevant_term"
+        }
+    ],
+    "247db7a8-f089-58eb-a9f7-1393e2adc903": [
+        {
+            "text": "BlackCat",
+            "tag": "vendor"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "credentials",
+            "tag": "relevant_term"
+        }
+    ],
+    "6cf661e0-4eae-5a1e-a6b2-ab7e2f169c19": [
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "crash",
+            "tag": "relevant_term"
+        }
+    ],
+    "a1c7d353-7c81-5573-acc2-69e27b8ba233": [
+        {
+            "text": "Password",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "allows",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        }
+    ],
+    "56be6e90-e2da-5bfa-a4b6-b99c87426798": [
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "allows",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "execute",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "commands",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "sensitive information",
+            "tag": "relevant_term"
+        }
+    ],
+    "d4796dd3-c99d-52aa-850a-5236310acbde": [
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "5S",
+            "tag": "version"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        }
+    ],
+    "4668177a-1e8b-56bb-820f-3b008f5e91d4": [
+        {
+            "text": "Atlassian",
+            "tag": "vendor"
+        },
+        {
+            "text": "Confluence Server",
+            "tag": "application"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        }
+    ],
+    "2001e6fb-af68-5ae7-94cf-0f50c0b1ad6d": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "Talos",
+            "tag": "application"
+        },
+        {
+            "text": "memory",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        }
+    ],
+    "a0777988-5aaf-5b73-9957-fb609277b15f": [
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attacker",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "overwrite",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "arbitrary files",
+            "tag": "relevant_term"
+        }
+    ],
+    "4d2e16aa-103c-581b-8f9e-b33e4b218955": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "application",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "application",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "application",
+            "tag": "relevant_term"
+        }
+    ],
+    "7c864d83-e657-5294-ab43-09fe4ab0ce83": [
+        {
+            "text": "Oracle",
+            "tag": "vendor"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "obtain",
+            "tag": "relevant_term"
+        }
+    ],
+    "ef26f394-fd71-5d74-a26f-0c8a8d9afc43": [
+        {
+            "text": "previously",
+            "tag": "update"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "sensitive",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        }
+    ],
+    "b7a120bd-4b50-5cbd-b236-84cd2e491646": [
+        {
+            "text": "memory",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "memory",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "memory",
+            "tag": "relevant_term"
+        }
+    ],
+    "8b26c583-d8d2-5e6d-9a1f-b3c4da4eab54": [
+        {
+            "text": "Australian",
+            "tag": "vendor"
+        },
+        {
+            "text": "Cyber Security Centre",
+            "tag": "application"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        }
+    ],
+    "a246f334-49fe-53d3-b541-7c7350c8ab52": [
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "sensitive",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "bypass",
+            "tag": "relevant_term"
+        }
+    ],
+    "86aa0391-2d83-5748-a317-e607a2a197b5": [
+        {
+            "text": "Dell",
+            "tag": "vendor"
+        },
+        {
+            "text": "overwrite",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "arbitrary",
+            "tag": "relevant_term"
+        }
+    ],
+    "335fe57b-ca88-5ceb-b02a-638044ae9f20": [
+        {
+            "text": "XCSSET",
+            "tag": "vendor"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "obtained",
+            "tag": "relevant_term"
+        }
+    ],
+    "6338182f-cde1-50ed-a915-d9b51359593c": [
+        {
+            "text": "LockBit",
+            "tag": "vendor"
+        },
+        {
+            "text": "2.0",
+            "tag": "version"
+        },
+        {
+            "text": "3.0",
+            "tag": "version"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        }
+    ],
+    "f09b9169-acb4-5ccc-b2af-d660a17b3543": [
+        {
+            "text": "Adobe",
+            "tag": "vendor"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "updates",
+            "tag": "update"
+        },
+        {
+            "text": "updates",
+            "tag": "update"
+        }
+    ],
+    "5f063edc-0774-505f-b149-99d1a19fcdfb": [
+        {
+            "text": "Password",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "authentication",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Application",
+            "tag": "relevant_term"
+        }
+    ],
+    "7bb6a5a2-38cb-553c-8c55-8ed8502b4fa7": [
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "6.10.7 and above",
+            "tag": "version"
+        },
+        {
+            "text": "6.9.12 and above",
+            "tag": "version"
+        }
+    ],
+    "7c2e1564-dddf-5ae7-be9d-7f1970401fdd": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "Talos",
+            "tag": "application"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "previously",
+            "tag": "update"
+        }
+    ],
+    "aa1e3f3a-4c5a-5b15-8351-26b19fe5284b": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "Talos",
+            "tag": "application"
+        },
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        }
+    ],
+    "b41b376a-1b68-520d-b2d9-517e228cf55c": [
+        {
+            "text": "remote",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        },
+        {
+            "text": "remote attacker",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "arbitrary",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "crash",
+            "tag": "relevant_term"
+        }
+    ],
+    "b0e42be2-0e85-539a-90ee-aa928d33b748": [
+        {
+            "text": "Android",
+            "tag": "os"
+        },
+        {
+            "text": "allows",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "account",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "hijack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        }
+    ],
+    "798d7dfb-bf59-58d5-ac93-e49f184e755a": [
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Code",
+            "tag": "relevant_term"
+        }
+    ],
+    "26ca7ec9-7210-5d70-a7f2-6e5dc320bb03": [
+        {
+            "text": "Samsung",
+            "tag": "vendor"
+        },
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "access",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "account",
+            "tag": "relevant_term"
+        }
+    ],
+    "e8b98226-0c49-504d-9bd0-fb2dbb1ad9e9": [
+        {
+            "text": "TikTok",
+            "tag": "application"
+        },
+        {
+            "text": "application",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "before 23.7.3",
+            "tag": "version"
+        },
+        {
+            "text": "allows",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "account",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "arbitrary",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "attacker",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "JavaScript",
+            "tag": "programming"
+        },
+        {
+            "text": "authenticated",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "requests",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "account",
+            "tag": "relevant_term"
+        }
+    ],
+    "fbf159b2-461c-5cca-bf76-8ae12e803ff3": [
+        {
+            "text": "Microsoft",
+            "tag": "vendor"
+        },
+        {
+            "text": "attackers",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "JavaScript",
+            "tag": "programming"
+        }
+    ],
+    "76f5cdb8-00df-5147-bbe7-bf9feaffdb85": [
+        {
+            "text": "18.04",
+            "tag": "version"
+        },
+        {
+            "text": "Azure",
+            "tag": "vendor"
+        },
+        {
+            "text": "237-3ubuntu10.54.54",
+            "tag": "version"
+        }
+    ],
+    "c2f3a204-4839-511e-96d3-cd2efbf1a1f5": [
+        {
+            "text": "local",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Javascript",
+            "tag": "programming"
+        },
+        {
+            "text": "attack",
+            "tag": "relevant_term"
+        }
+    ],
+    "f4b6dcca-d8c7-540a-bac8-74d61c1158ef": [
+        {
+            "text": "information",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "sensitive",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "credentials",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Google",
+            "tag": "vendor"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        }
+    ],
+    "5cc70b2e-d2a2-5487-a343-83787d2b2884": [
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "commands",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "local",
+            "tag": "relevant_term"
+        }
+    ],
+    "e24cdb08-5bf1-5b88-bb09-898e8c4a7865": [
+        {
+            "text": "Cisco",
+            "tag": "vendor"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "code",
+            "tag": "relevant_term"
+        }
+    ],
+    "cf4971f2-56b0-5bcb-b18e-4cb18522fc1d": [
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "Windows",
+            "tag": "os"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        },
+        {
+            "text": "malware",
+            "tag": "relevant_term"
+        }
+    ]
+}

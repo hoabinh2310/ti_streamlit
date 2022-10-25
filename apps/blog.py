@@ -25,7 +25,9 @@ blog1, blog2, blog3 = st.columns((1,1,1))
 
 ner, title, url = get_ner()
 
-for i in range(5):
+for i in range(9):
+    # if (i==0) or (i==2) or (i==3) or (i==7):
+        # continue
     ct = st.container()
     with ct:
         blog = ct.columns((1,1,1))
