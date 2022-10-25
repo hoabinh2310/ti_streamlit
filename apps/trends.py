@@ -27,12 +27,20 @@ dftw['cve'] = cve
 df = dftw[dftw.cve == 1]
 
 
-choice = st.selectbox('Make a selection', ['week', 'month', 'year', 'all'], key=1)
+# choice = st.selectbox('Make a selection', ['week', 'month', 'year', 'all'], key=1)
 
-kdays = {'week': 7, 'month': 30, 'year': 365, 'all': 365*4}
+# kdays = {'week': 7, 'month': 30, 'year': 365, 'all': 365*4}
 
-startday = (datetime.datetime.now() - datetime.timedelta(days=kdays[choice])).strftime('%Y-%m-%d')
-endday = (datetime.datetime.now()).strftime('%Y-%m-%d')
+# startday = (datetime.datetime.now() - datetime.timedelta(days=kdays[choice])).strftime('%Y-%m-%d')
+# endday = (datetime.datetime.now()).strftime('%Y-%m-%d')
+
+day = startday = (datetime.datetime.now() - datetime.timedelta(days=7)).strftime('%Y-%m-%d')
+start_date = st.date_input("Start Date", value=pd.to_datetime(day, format="%Y-%m-%d"), max_value=pd.to_datetime("today", format="%Y-%m-%d"))
+end_date = st.date_input("End Date", value=pd.to_datetime("today", format="%Y-%m-%d"), max_value=pd.to_datetime("today", format="%Y-%m-%d"), min_value=start_date)
+
+# convert the dates to string
+startday = start_date.strftime("%Y-%m-%d")
+endday = end_date.strftime("%Y-%m-%d")
 
 list_cve = get_cve_topk(df=df, startdate = startday, enddate = endday, k=8)
 ldf = []
