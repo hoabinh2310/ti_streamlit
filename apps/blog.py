@@ -7,7 +7,6 @@ import numpy as np
 from apps.func import *
 from annotated_text import annotated_text
 
-
 # Path: streamlit\ti_streamlit\apps\blog.py
 
 if 'well_done' not in st.session_state:
