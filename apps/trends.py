@@ -34,8 +34,8 @@ df = dftw[dftw.cve == 1]
 # startday = (datetime.datetime.now() - datetime.timedelta(days=kdays[choice])).strftime('%Y-%m-%d')
 # endday = (datetime.datetime.now()).strftime('%Y-%m-%d')
 
-day = startday = (datetime.datetime.now() - datetime.timedelta(days=14)).strftime('%Y-%m-%d')
-day2 = startday = (datetime.datetime.now() - datetime.timedelta(days=7)).strftime('%Y-%m-%d')
+day = startday = (datetime.datetime.now() - datetime.timedelta(days=21)).strftime('%Y-%m-%d')
+day2 = startday = (datetime.datetime.now() - datetime.timedelta(days=14)).strftime('%Y-%m-%d')
 start_date = st.date_input("Start Date", value=pd.to_datetime(day, format="%Y-%m-%d"), max_value=pd.to_datetime("today", format="%Y-%m-%d"))
 end_date = st.date_input("End Date", value=pd.to_datetime(day2, format="%Y-%m-%d"), max_value=pd.to_datetime("today", format="%Y-%m-%d"), min_value=start_date)
 
